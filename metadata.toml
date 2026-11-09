@@ -2,21 +2,21 @@
 # Edit this file to customize your thesis
 
 [author]
-name = "Carl Friedrich Gauß"
-enrolment_no = "30041777"
-street = "Leonhard-Euler-Str. 271"
-zip = "37001"
-city = "Göttingen"
-email = "carl.friedrich.gauss@tha.de"
-phone = "+49 3141-5926"
+name = "Jannis Gröger"
+enrolment_no = "2231798"
+street = ""
+zip = ""
+city = ""
+email = "jannis.groeger@tha.de"
+phone = ""
 signature_place = "Augsburg"
 
 [thesis]
-title = "Disquisitiones generales circa superficies curvas"
+title = "Exposé"
 # Options: "Bachelorarbeit", "Masterarbeit", "Thesis"
 type = "Thesis"
 
-study_program = "Mathematik"
+study_program = "Technische Informatik"
 
 # Options: "Bachelor of Arts (B. A.)", "Bachelor of Engineering (B. Eng.)",
 #          "Bachelor of Science (B. Sc.)", "Master of Arts (M. A.)",
@@ -31,14 +31,14 @@ study_degree = "Bachelor of Science (B. Sc.)"
 # - "Fakultät für\nInformatik"
 # - "Fakultät für\nMaschinenbau und\nVerfahrenstechnik"
 # - "Fakultät für\nWirtschaft"
-faculty = "Fakultät für\nAngewandte\nGeistes- und\nNaturwissenschaften"
+faculty = "Fakultät für\nInformatik"
 
-supervisor = "Prof. Dr. Frank N. Stein"
+supervisor = "Prof. Dr. Constantin Wanninger"
 # supervisor_deputy = "Prof. Dr. Mario Huana"  # Uncomment to add deputy supervisor
 
 [dates]
-topic_assignment = 2025-10-17
-submission = 2025-10-17
+topic_assignment = 2026-10-06
+submission = 2026-11-20
 # defense = 2025-10-17  # Uncomment to add defense date
 
 [university]

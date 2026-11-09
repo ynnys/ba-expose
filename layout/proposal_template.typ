@@ -20,7 +20,7 @@
   )
   set-database(lang-data)
 
-  let sans-font = "Nimbus Sans"
+  let sans-font = "Nimbus Sans L"
   let serif-font = "TeX Gyre Termes"
   set text(
     lang: metadata.settings.language,
@@ -32,9 +32,10 @@
 
   // Set the document's basic properties.
   set page(
-    margin: (inside: 37.5mm, outside: 25mm, top: 25mm, bottom: 40mm),
-    binding: left,
-    footer: context align(if calc.odd(counter(page).get().first()) { right } else { left })[
+    margin: (// inside: 25mm, outside: 25mm,
+     top: 25mm, bottom: 40mm),
+    // binding: left,
+    footer: context align(if calc.odd(counter(page).get().first()) { center } else { center })[
       #counter(page).display()
     ],
   )
@@ -114,7 +115,7 @@
   counter(page).update(1)
   set heading(numbering: none)
 
-  show outline: set text(font: "Nimbus Sans")
+  show outline: set text(font: "Nimbus Sans L")
   show outline.entry.where(level: 1): it => {
     v(18pt, weak: true)
     it

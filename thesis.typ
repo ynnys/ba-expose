@@ -24,12 +24,12 @@
 
 #pagebreak(weak: true)
 
-#author_declaration(
-  metadata.author.name,
-  metadata.author.signature_place,
-  metadata.dates.submission,
-  metadata.settings.language,
-)
+// #author_declaration(
+  // metadata.author.name,
+  // metadata.author.signature_place,
+  // metadata.dates.submission,
+  // metadata.settings.language,
+// )
 #list-of-figures()
-#list-of-tables()
+// #list-of-tables()
 

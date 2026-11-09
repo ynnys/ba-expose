@@ -11,7 +11,7 @@
     header: none,
   )
 
-  set text(font: "Nimbus Sans")
+  set text(font: "Nimbus Sans L")
 
   set par(leading: 6pt)
 
@@ -40,11 +40,11 @@
     [
       #set par(leading: 0.45mm)
 
-      #text(fill: tha-red, size: 18pt, weight: "bold")[#metadata.thesis.type] \
-      #v(-5pt)
-      #text(size: 12pt)[#linguify("reachingDegree")] \
-      #v(-8pt)
-      #text(size: 12pt)[#metadata.thesis.study_degree #linguify("inLabel") #metadata.thesis.study_program]
+      #text(fill: tha-red, size: 18pt, weight: "bold")[] \
+      #v(5pt)
+      //#text(size: 12pt)[#linguify("reachingDegree")] \
+      #v(8pt)
+      //#text(size: 12pt)[#metadata.thesis.study_degree #linguify("inLabel") #metadata.thesis.study_program]
       #v(41pt)
 
       #box(height: 34.5pt, width: 100%)[
