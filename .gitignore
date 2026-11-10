@@ -1,6 +1,9 @@
 # Compiled PDFs
 *.pdf
 
+# Local Claude Code project notes
+CLAUDE.md
+
 # Typst build artifacts
 .typst-cache/
 
