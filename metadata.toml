@@ -13,8 +13,10 @@ signature_place = "Augsburg"
 
 [thesis]
 title = "Exposé"
-# Options: "Bachelorarbeit", "Masterarbeit", "Thesis"
-type = "Thesis"
+# Subtitle or working title (shown in gray below the title; leave empty to hide)
+subtitle = ""
+# Shown as "Dokumenttyp" on the title page
+type = "Exposé"
 
 study_program = "Technische Informatik"
 

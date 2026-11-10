@@ -15,8 +15,11 @@
 // =============================== Main content ================================
 // =============================================================================
 
-#include "content/chapter01.typ"
-#include "content/chapter02.typ"
+#include "content/01_einleitung.typ"
+#include "content/02_verwandte_arbeiten.typ"
+#include "content/03_problemstellung.typ"
+#include "content/04_ziel_der_arbeit.typ"
+#include "content/05_meilensteinplanung.typ"
 
 // =============================================================================
 // ============================= Appendix section ==============================
@@ -30,6 +33,6 @@
   // metadata.dates.submission,
   // metadata.settings.language,
 // )
-#list-of-figures()
+// #list-of-figures()
 // #list-of-tables()
 

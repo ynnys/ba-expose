@@ -1,139 +1,69 @@
 #import "./utils/helpers.typ": format_date, toml_to_datetime
 #import "@preview/linguify:0.4.2": linguify
 
-#let titlepage(metadata) = {
-  let tha-red = rgb(255, 3, 80)
+// Title page as in the official THA exposé template (main.tex, titlepage):
+// university and faculty top left, logo top right, red title, gray subtitle,
+// and a booktabs table with the document data at the bottom.
+#let titlepage(
+  metadata,
+  tha-red: rgb("#E60046"),
+  tha-gray: rgb("#4A4A4A"),
+  scale: 0.95,
+) = {
   let logo_path = "./figures/Logo.svg"
+  // The metadata uses "\n" for the multi-line layout of the thesis template.
+  let one-line(s) = s.replace("\n", " ")
 
-  set page(
-    margin: (left: 27mm, right: 15mm, top: 20mm, bottom: auto),
-    header-ascent: 0mm,
-    header: none,
-  )
+  // titlepage environment: its own page without a page number
+  page(numbering: none, header: none, footer: none)[
+  #set par(justify: false, first-line-indent: 0em)
+  #{
 
-  set text(font: "Nimbus Sans L")
-
-  set par(leading: 6pt)
-
+  // \noindent minipage{0.58\textwidth} \hfill minipage{0.35\textwidth}
   grid(
-    columns: (126.9mm, 1fr),
-    column-gutter: 7.4mm,
+    columns: (58%, 1fr, 35%),
+    align: (left + top, auto, right + top),
     [
-      #if logo_path != "" [
-        #place(dx: -0.65mm)[
-          #image(logo_path, width: 60mm)
-        ]
-      ]
+      #text(fill: tha-red, weight: "bold")[#one-line(metadata.university.name)] \
+      #v(2mm, weak: true)
+      #text(size: 14.4pt * scale)[#one-line(metadata.thesis.faculty)]
     ],
-    [
-      #box(height: 52.5pt, width: 100%)[
-        #text(fill: tha-red, weight: "bold", size: 12pt)[#metadata.thesis.faculty]
-      ]
-    ],
+    [],
+    image(logo_path, width: 90%),
   )
 
-  v(18.2mm)
+  v(35mm)
 
-  grid(
-    columns: (126.9mm, 1fr),
-    column-gutter: 7.4mm,
-    [
-      #set par(leading: 0.45mm)
+  // {\Huge\bfseries\color{THARed}\Titel\par}
+  block(text(size: 24.88pt * scale, weight: "bold", fill: tha-red, metadata.thesis.title))
+  // \vspace{6mm} {\Large\color{THAGray}\Untertitel\par}
+  let subtitle = metadata.thesis.at("subtitle", default: "")
+  if subtitle != "" {
+    v(6mm)
+    block(text(size: 17.28pt * scale, fill: tha-gray, subtitle))
+  }
 
-      #text(fill: tha-red, size: 18pt, weight: "bold")[] \
-      #v(5pt)
-      //#text(size: 12pt)[#linguify("reachingDegree")] \
-      #v(8pt)
-      //#text(size: 12pt)[#metadata.thesis.study_degree #linguify("inLabel") #metadata.thesis.study_program]
-      #v(41pt)
+  v(1fr)
 
-      #box(height: 34.5pt, width: 100%)[
-        #text(fill: tha-red, size: 18pt, weight: "bold")[#metadata.thesis.title]
-      ]
-
-      #v(9.5mm)
-      #text(size: 11pt)[#linguify("createdBy")]
-      #text(size: 15pt)[#metadata.author.name]
-      #v(50.7mm)
-
-      #set text(size: 11pt)
-      #line(length: 100%, stroke: 1pt)
-      #v(-1.7mm)
-      #pad(left: 2.11mm)[
-        #grid(
-          columns: (auto, 1fr),
-          row-gutter: 3.5mm,
-          column-gutter: 4.1mm,
-          align: (left, left),
-
-          [#linguify("supervisor")], [#metadata.thesis.supervisor],
-          ..if metadata.thesis.at("supervisor_deputy", default: none) != none {
-            ([#linguify("supervisorDeputy")], [#metadata.thesis.supervisor_deputy])
-          } else {
-            ()
-          },
-          [#linguify("topicAssignment")],
-          [#format_date(toml_to_datetime(metadata.dates.topic_assignment), metadata.settings.language)],
-          [#linguify("submittedOn")],
-          [#format_date(toml_to_datetime(metadata.dates.submission), metadata.settings.language)],
-          ..if metadata.dates.at("defense", default: none) != none {
-            (
-              [#linguify("defenseOn")],
-              [#format_date(toml_to_datetime(metadata.dates.defense), metadata.settings.language)],
-            )
-          } else {
-            ()
-          },
-          [#linguify("nda")], [#if metadata.settings.non_disclosure [#linguify("yes")] else [#linguify("no")]],
-        )
-      ]
-      #v(-1.8mm)
-      #line(length: 100%, stroke: 1pt)
-    ],
-    [
-      #set par(leading: 1.6mm)
-      #v(68.5mm)
-
-      #box(height: 90pt, width: 100%)[
-        #text(size: 7pt, weight: "bold")[#metadata.author.name]
-        #v(-0.15mm)
-        #if metadata.author.street != "" [
-          #text(size: 7pt)[#metadata.author.street]
-          #linebreak()
-        ]
-        #if metadata.author.zip != "" or metadata.author.city != "" [
-          #text(size: 7pt)[#metadata.author.zip #metadata.author.city]
-          #linebreak()
-        ]
-        #if metadata.author.phone != "" [
-          #text(size: 7pt)[T #metadata.author.phone]
-          #linebreak()
-        ]
-        #if metadata.author.email != "" [
-          #text(size: 7pt)[#metadata.author.email]
-          #v(3mm)
-        ]
-        #text(size: 7pt)[#linguify("enrolmentNumber"):]
-        #linebreak()
-        #text(size: 7pt)[#metadata.author.enrolment_no]
-      ]
-
-      #v(4.7mm)
-      #text(fill: tha-red, size: 7pt, weight: "bold")[#metadata.university.name]
-      #v(-0.15mm)
-      #text(size: 7pt)[#metadata.university.address]
-      #linebreak()
-      #text(size: 7pt)[#metadata.university.zip #metadata.university.city]
-      #linebreak()
-      #text(size: 7pt)[T #metadata.university.phone]
-      #linebreak()
-      #text(size: 7pt)[F #metadata.university.fax]
-      #linebreak()
-      #text(size: 7pt)[#metadata.university.url]
-      #linebreak()
-      #text(size: 7pt)[#metadata.university.email]
-    ],
+  // tabularx{\textwidth}{@{}lX@{}} with \toprule / \bottomrule, \arraystretch 1.25
+  let rule = 0.08em
+  table(
+    columns: (auto, 1fr),
+    stroke: none,
+    // \arraystretch 1.25 with \onehalfspacing: rows of 1.25 × 18pt;
+    // cell height = cap height (0.718em) + 2 × inset
+    inset: (x: 0pt, y: (1.25 * 18pt - 0.718 * 12pt * scale) / 2),
+    column-gutter: 12pt,
+    table.hline(stroke: rule),
+    [#linguify("documentType")], [#metadata.thesis.type],
+    [#linguify("author")], [#metadata.author.name],
+    [#linguify("enrolmentNumber")], [#metadata.author.enrolment_no],
+    [#linguify("studyProgram")], [#metadata.thesis.study_program],
+    [#linguify("advisor")], [#metadata.thesis.supervisor],
+    [#linguify("submissionDate")],
+    [#format_date(toml_to_datetime(metadata.dates.submission), metadata.settings.language)],
+    table.hline(stroke: rule),
   )
-
-  pagebreak()
+  }
+  ]
 }
