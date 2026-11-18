@@ -19,3 +19,9 @@ Bisher ist geplant, dass der Mieter am Anhänger steht und selbst verkauft; dann
 Für das Konzept wäre eine grobe Teileliste (item24-Profile, Kühlschrank, Akku, Solarmodul) hilfreich. Die Exposé-Vorlage hat aber keinen Anhang.
 
 **Frage:** Darf das Exposé einen Anhang (z. B. Teileliste) enthalten, und zählt er zu den 5–6 Seiten?
+
+## 4. Detailtiefe des Konzepts im Exposé
+
+Das Exposé soll beschreiben, was gemacht wird und wie vorgegangen wird, nicht die fertige Lösung. Offen ist, wie genau das Konzept schon sein soll, z. B. eine grobe Energieabschätzung, eine Skizze des Anhängers oder eine erste Architektur der Webanwendung.
+
+**Frage:** Wie detailliert soll das Konzept im Exposé sein? Reicht eine grobe Machbarkeitsabschätzung, und offene technische Fragen (z. B. Massengrenze und Bremse nach StVZO, Wahl der Kühlung) werden als Teilziele der Arbeit formuliert?
