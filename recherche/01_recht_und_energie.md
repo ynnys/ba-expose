@@ -62,6 +62,18 @@ Ich habe **keine Primärquelle** gefunden, die für Fahrradanhänger eine Höchs
 2. Was verlangt DIN EN 15918 zu Bremse und Kupplung, und gilt sie für diesen Anhänger?
 3. Höchstbreite für die Nutzung von Radwegen (StVO), relevant für die Breite ≤ 1000 mm.
 
+→ Laut Notiz „Exposé = Plan, nicht Lösung“ werden diese Fragen nicht mehr fürs Exposé recherchiert, sondern im Exposé als Teilziel formuliert und in der BA geklärt.
+
+### 1.4 FZV und § 32 StVZO: keine Grenzen für Fahrradanhänger
+
+Geprüft am 19.11.2026.
+
+- **FZV gilt nicht.** § 1 FZV: anzuwenden auf die Zulassung von „Kraftfahrzeugen mit einer bauartbedingten Höchstgeschwindigkeit von mehr als 6 Kilometern pro Stunde“ und „die Zulassung ihrer Anhänger“. § 2 Nr. 2 FZV: Anhänger ist ein „zum Anhängen an ein Kraftfahrzeug bestimmtes und geeignetes Fahrzeug“. Ein Fahrrad (auch ein Pedelec bis 0,25 kW / 25 km/h, § 63a Abs. 2 StVZO) ist kein Kraftfahrzeug. Ein Fahrradanhänger ist also **nicht zulassungspflichtig**, und die FZV enthält keine Maß- oder Massengrenzen für ihn. → [§ 1 FZV](https://www.gesetze-im-internet.de/fzv_2023/__1.html), [§ 2 FZV](https://www.gesetze-im-internet.de/fzv_2023/__2.html) (**A**)
+- **§ 32 StVZO (Abmessungen) gilt nicht.** Die Grenzen (Breite 2,55 m, Höhe 4,00 m, Länge 12,00 m) gelten „bei Kraftfahrzeugen und Anhängern“. Fahrräder und Fahrradanhänger werden nicht genannt. Einziger verwandter Wert: Abs. 9, **max. 1,00 m Breite für „Fahrräder mit Hilfsmotor“** (Mofas, nicht direkt anwendbar, aber als Orientierung passend zur geplanten Breite ≤ 1000 mm). → [§ 32 StVZO](https://www.gesetze-im-internet.de/stvzo_2012/__32.html) (**A**)
+- **Verbindlich für Fahrradanhänger** sind damit vor allem § 63a Abs. 3 (Stand der Technik) und § 67a StVZO (Beleuchtung). Praktische Grenzen für Masse, Bremse und Maße ergeben sich aus DIN EN 15918, der freigegebenen Anhängelast des Zugrads und der Breite der Radwege.
+
+Formulierungsvorschlag fürs Exposé: „Fahrradanhänger sind nicht zulassungspflichtig, da die FZV nur Kraftfahrzeuge und deren Anhänger erfasst; verbindlich sind vor allem §§ 63a und 67a StVZO.“
+
 ---
 
 ## 2. Energie: Kühlung, Solarertrag, Speicher
