@@ -54,12 +54,12 @@ Ich habe **keine Primärquelle** gefunden, die für Fahrradanhänger eine Höchs
   - [mobiFlip, 01.08.2024: 50-Kilogramm-Grenze im Gespräch](https://www.mobiflip.de/shortnews/50-kilogramm-grenze-fuer-fahrradanhaenger-im-gespraech/) (C, beruft sich auf den Spiegel)
   - [hinterher.com: Aktuelle Infos zur geplanten StVZO-Änderung](https://www.hinterher.com/blog/stvzo) (C, Hersteller, nicht neutral)
   - [nimms-rad.de: Bald nur noch 50 kg Gesamtgewicht?](https://www.nimms-rad.de/news/50-kg-gesamtgewicht-fahrrad-anhaenger/) (C)
-- **Norm DIN EN 15918** (Fahrradanhänger, Sicherheitsanforderungen und Prüfverfahren, Ausgabe 2017-05) wäre der „Stand der Technik“ im Sinne von § 63a Abs. 3. Der Normtext ist kostenpflichtig; die Einzelwerte (Bremse, Standsicherheit, Kupplung) habe ich nicht. Gilt laut Inhaltsangabe für Lasten- und Kinderanhänger; **Typ-L-Anhänger für den beruflichen Gebrauch sind ausgenommen**. Prüfen, ob das für einen Vermiet-/Verkaufsanhänger relevant ist. → [DIN EN 15918 bei DIN Media](https://www.dinmedia.de/en/standard/din-en-15918/262481285) (A, nur Inhaltsangabe frei)
+- **Norm DIN EN 15918** (Fahrradanhänger, Sicherheitsanforderungen und Prüfverfahren, Ausgabe 2017-05) wäre der „Stand der Technik“ im Sinne von § 63a Abs. 3. Der Normtext ist kostenpflichtig; die Einzelwerte (Bremse, Standsicherheit, Kupplung) habe ich nicht. Gilt laut Inhaltsangabe für Lasten- und Kinderanhänger; **Typ-L-Anhänger für den beruflichen Gebrauch sind ausgenommen**. Prüfen, ob das für einen Vermiet-/Verkaufsanhänger relevant ist. → [DIN EN 15918 bei DIN Media](https://www.dinmedia.de/en/standard/din-en-15918/262481285) (A, nur Inhaltsangabe frei) → **Inzwischen gelesen, siehe 1.5: Die Norm gilt für diesen Anhänger nicht; passend ist DIN EN 17860-7 (1.6).**
 - **Anhängelast des Fahrrads:** Die Grenze setzt in der Praxis oft der Hersteller des Zugfahrrads (freigegebene Anhängelast). → bei der Wahl des Zugrads beachten.
 
 **Offene Fragen für die nächste Runde:**
 1. Gibt es inzwischen eine Massengrenze oder Bremspflicht in der StVZO?
-2. Was verlangt DIN EN 15918 zu Bremse und Kupplung, und gilt sie für diesen Anhänger?
+2. ~~Was verlangt DIN EN 15918 zu Bremse und Kupplung, und gilt sie für diesen Anhänger?~~ → geklärt in 1.5: gilt nicht (über 60 kg, beruflicher Gebrauch). Passende Norm ist DIN EN 17860-7, siehe 1.6.
 3. Höchstbreite für die Nutzung von Radwegen (StVO), relevant für die Breite ≤ 1000 mm.
 
 → Laut Notiz „Exposé = Plan, nicht Lösung“ werden diese Fragen nicht mehr fürs Exposé recherchiert, sondern im Exposé als Teilziel formuliert und in der BA geklärt.
@@ -70,9 +70,100 @@ Geprüft am 19.11.2026.
 
 - **FZV gilt nicht.** § 1 FZV: anzuwenden auf die Zulassung von „Kraftfahrzeugen mit einer bauartbedingten Höchstgeschwindigkeit von mehr als 6 Kilometern pro Stunde“ und „die Zulassung ihrer Anhänger“. § 2 Nr. 2 FZV: Anhänger ist ein „zum Anhängen an ein Kraftfahrzeug bestimmtes und geeignetes Fahrzeug“. Ein Fahrrad (auch ein Pedelec bis 0,25 kW / 25 km/h, § 63a Abs. 2 StVZO) ist kein Kraftfahrzeug. Ein Fahrradanhänger ist also **nicht zulassungspflichtig**, und die FZV enthält keine Maß- oder Massengrenzen für ihn. → [§ 1 FZV](https://www.gesetze-im-internet.de/fzv_2023/__1.html), [§ 2 FZV](https://www.gesetze-im-internet.de/fzv_2023/__2.html) (**A**)
 - **§ 32 StVZO (Abmessungen) gilt nicht.** Die Grenzen (Breite 2,55 m, Höhe 4,00 m, Länge 12,00 m) gelten „bei Kraftfahrzeugen und Anhängern“. Fahrräder und Fahrradanhänger werden nicht genannt. Einziger verwandter Wert: Abs. 9, **max. 1,00 m Breite für „Fahrräder mit Hilfsmotor“** (Mofas, nicht direkt anwendbar, aber als Orientierung passend zur geplanten Breite ≤ 1000 mm). → [§ 32 StVZO](https://www.gesetze-im-internet.de/stvzo_2012/__32.html) (**A**)
-- **Verbindlich für Fahrradanhänger** sind damit vor allem § 63a Abs. 3 (Stand der Technik) und § 67a StVZO (Beleuchtung). Praktische Grenzen für Masse, Bremse und Maße ergeben sich aus DIN EN 15918, der freigegebenen Anhängelast des Zugrads und der Breite der Radwege.
+- **Verbindlich für Fahrradanhänger** sind damit vor allem § 63a Abs. 3 (Stand der Technik) und § 67a StVZO (Beleuchtung). Praktische Grenzen für Masse, Bremse und Maße ergeben sich aus der freigegebenen Anhängelast des Zugrads, der Breite der Radwege und aus **DIN EN 17860-7** als Stand der Technik (siehe 1.6); DIN EN 15918 gilt nur bis 60 kg (siehe 1.5).
 
 Formulierungsvorschlag fürs Exposé: „Fahrradanhänger sind nicht zulassungspflichtig, da die FZV nur Kraftfahrzeuge und deren Anhänger erfasst; verbindlich sind vor allem §§ 63a und 67a StVZO.“
+
+### 1.5 DIN EN 15918: gilt nicht für diesen Anhänger, nur als Orientierung
+
+Gelesen am 23.11.2026. Quelle: DIN EN 15918:2017-05 „Fahrräder – Fahrradanhänger – Sicherheitstechnische Anforderungen und Prüfverfahren; Deutsche Fassung EN 15918:2011+A2:2017“, Beuth Verlag (**A**). Zugriff über die Hochschullizenz (Bayerisches Hochschul-Konsortium). **Das PDF liegt nicht im Repo und darf wegen der Lizenz nicht hinein**; nur zitieren.
+
+**Klassifizierung (Abschnitt 4.1, Tabelle 1):** Es gibt nur zwei Typen. Einspurige Anhänger sind mit „—“ markiert, ein C1 oder L1 gibt es also nicht.
+
+| | Kinder (C) | andere Lasten (L) |
+|---|---|---|
+| einspurig | — | — |
+| zweispurig | C2 | **L2** ← dieser Anhänger |
+
+**Anwendungsbereich (Abschnitt 1):** L2 ist grundsätzlich erfasst; Abschnitt 6.17 nennt ausdrücklich „Typ-C2- und Typ-L2-Fahrradanhänger“. Ausgeschlossen sind aber:
+- „Das zulässige Höchstgewicht eines solchen Fahrradanhängers, einschließlich der Last und/oder der beförderten Person(en), liegt bei **60 kg**.“
+- „Diese Norm gilt nicht für Anhängerfahrräder […] und für **Typ-L-Anhänger für den beruflichen Gebrauch** oder mit einem einzelnen Rad“.
+
+**Bewertung (eigene):** Die Norm gilt für diesen Anhänger nicht, und zwar aus zwei Gründen:
+1. **Masse:** Kühlgerät (14–18 kg) + Akku (~10 kg) + Solarmodul (~15 kg) + Rahmen und Räder + Ware liegen sicher über 60 kg (siehe 2.3).
+2. **Beruflicher Gebrauch:** Die Mieter verkaufen aus dem Anhänger, das ist sehr wahrscheinlich beruflicher Gebrauch.
+
+Nicht der Typ L2 ist der Grund für den Ausschluss, sondern Masse und Nutzung.
+
+**Folge:** EN 15918 deckt den Anhänger nicht ab. Maßgeblich für den „Stand der Technik“ nach § 63a Abs. 3 StVZO ist stattdessen **DIN EN 17860-7** (siehe 1.6); EN 17860-7 verweist selbst für Anhänger bis 60 kg auf EN 15918.
+
+**Werte, die trotzdem als Orientierung für die Konstruktion taugen:**
+
+| Abschnitt | Anforderung |
+|---|---|
+| 6.2 | Auflagepunkt der Verbindungseinrichtung max. **400 mm** über der Straße; sonst Nachweis, dass das Gespann mit mind. **0,35 g** abbremsbar ist (Anhang B). Stützlast darf nicht negativ sein. |
+| 6.3 | Ablenkungsvorrichtung vor den Rädern: Anhänger muss an einem senkrechten Pfosten (Ø 90 mm, ≥ 750 mm hoch) seitlich abgleiten. |
+| 6.4 | Alle zugänglichen Kanten abgerundet oder abgeschrägt, gratfrei (wichtig bei Profilenden von item). |
+| 6.12 | Feststellbremse: Pflicht nur für C2. Hat ein Typ-L-Anhänger eine, muss er beladen auf 10° Neigung höchstens 50 mm rollen. |
+| 6.14 | Front-, Rück- und Seitenreflektoren nach nationalem Recht (in DE § 67a StVZO); **orange dreieckige Flagge**, mind. 290 cm², Unterkante ≥ 1,4 m, Oberkante ≤ 2,0 m über dem Boden. |
+| 6.15 | Stützlast beladen **30–80 N**; Dauerprüfung auf der Trommel: 125 % der Nennlast, 38-mm-Hindernisse, 12,5 km/h, 10.000 Zyklen. |
+| 6.16 | Fahrrad muss sich gegenüber dem Anhänger um mind. **40°** je Richtung drehen lassen; Längsachsen max. 100 mm versetzt; Kupplung um 90° drehbar, ohne dass ein Rad des leeren Anhängers abhebt; Deichsel-Dauerprüfung mit ±4,5 × Gesamtmasse (in N), 100.000 Zyklen. |
+| 6.17 | **Zweite Sicherheitseinrichtung** (z. B. Fangseil) zwischen Deichsel und Fahrrad, muss 1000 N für 15 s halten. |
+| 8 | Gebrauchsanleitung u. a. mit Eignung des Zugrads, Beladung, Stützlast, Warnung vor längerem Bremsweg, Hinweis auf Einschränkungen bei Pedelecs. |
+| 9 | Kennzeichnung u. a. mit höchster Gesamtmasse, Nennlast, kleinster und größter Stützlast. |
+| Anhang B | Formel für die höchstmögliche Abbremsung des Gespanns (Fahrrad mit Fahrer M = 100 kg als Standard); ein Fahrrad allein schafft ca. 0,55 g, gefordert sind 0,35 g trocken bzw. 0,2 g nass. |
+
+**Wichtig:** EN 15918 enthält **keine Anforderung an eine Betriebsbremse** am Anhänger, nur an eine Feststellbremse. Die Bremsanforderungen für schwerere Anhänger stehen in EN 17860-7 (siehe 1.6).
+
+### 1.6 DIN EN 17860-7: die passende Norm für diesen Anhänger
+
+Gelesen am 23.11.2026. Quelle: DIN EN 17860-7:2025-06 „Lastenfahrräder – Teil 7: Anhänger; Deutsche Fassung EN 17860-7:2024“, DIN Media (**A**). Zugriff über die Hochschullizenz. **Das PDF liegt nicht im Repo und darf wegen der Lizenz nicht hinein**; nur zitieren. Hinweis: Die deutsche Fassung enthält nationale Fußnoten, die mehrere falsche Querverweise der englischen Fassung korrigieren (5.3, 5.8.1, 5.8.4.1.3, 6.2).
+
+**Anwendungsbereich (Abschnitt 1, Tabelle 1):** „ein- und mehrachsige Lastenanhänger und ihre Verbindungseinrichtungen“ mit einem **maximalen Bruttofahrzeuggewicht von 600 kg**.
+
+| Anhängertyp / Verwendung | anwendbar? | dieser Anhänger |
+|---|---|---|
+| mehrspurig, eine Achse | ja | ✓ |
+| mehrspurig, mehrere Achsen | ja | |
+| einspurig | nein | |
+| mit Auflieger (Sattelanhänger) | nein | – (Deichselanhänger) |
+| Fracht | ja | ✓ |
+| Menschen/Kinder/Haustiere | nein | |
+
+- **Beruflicher Gebrauch ist nicht ausgeschlossen**; die Norm nennt sogar ausdrücklich Prüfzyklen „für die kommerzielle/professionelle Nutzung“ (7.4, 7.6.2). → Die Norm gilt für diesen Anhänger.
+- Anmerkung 1: Elektrisch unterstützte Lastenanhänger zusätzlich nach EN 17860-5. Anmerkung 2: bis 60 kg → EN 15918.
+- Einleitung: Die Norm ist für Lastenanhänger gedacht, die von der EU-Typgenehmigung (VO (EU) Nr. 168/2013) ausgeschlossen sind.
+
+**Wichtigste Anforderungen:**
+
+| Abschnitt | Anforderung | Bedeutung für das Projekt |
+|---|---|---|
+| 4 | Empfohlenes max. Bruttogewicht **350 kg**, wenn von Fahrrad, EPAC oder einspurigem Lastenrad gezogen; 600 kg nur hinter mehrspurigem Lastenrad | weit unterhalb, kein Problem |
+| 5.5 | Umlenkvorrichtung vor den Rädern (wie EN 15918, Pfosten Ø 90 mm, ≥ 750 mm hoch); muss Auffahren mit max. Zuladung aushalten | in Konstruktion einplanen |
+| 5.6 | Lastenverteilung: Schwerpunkt nicht zu weit hinten, möglichst niedrig, gleichmäßige Radlast | **Kühlgerät, Akku tief einbauen; Solardach erhöht den Schwerpunkt** |
+| 5.8.1 | Mind. **zwei simultan betriebene Bremsanlagen**. **Bis 100 kg Gesamtmasse (inkl. Zuladung) keine Auflaufbremse nötig, aber nur wenn der Kupplungspunkt ≤ 400 mm hoch liegt.** Hersteller muss Bremsleistung mit dem leichtesten Fahrrad bestätigen und passende Fahrradtypen empfehlen. | **Kernpunkt:** Über 100 kg braucht der Anhänger eine eigene Bremse (Auflaufbremse). Was „zwei Bremsanlagen“ genau meint (z. B. je Rad eine), in der BA klären. |
+| 5.8.3, Tab. 2 | Mindestverzögerung des Gespanns mit Referenz-Stadtrad: **3,4 m/s² trocken (25 km/h), 2,2 m/s² nass (16 km/h)**, beladen und leer; Verhältnis nass : trocken > 4 : 10; kein Kippen, Blockieren des Vorderrads, Ausbrechen | Bremsprüfung als möglicher Test in der BA |
+| 5.9.1 | Mechanische Feststellfunktion (Ständer und/oder Feststellbremse), hält beladen und leer an **16 % Gefälle** | wichtig für Standbetrieb beim Verkauf |
+| 5.10.1 | Statische Kippstabilität: auf **18 % (10,2°) Querneigung** hebt kein Rad ab | hoher Aufbau mit Solardach → nachweisen |
+| 5.10.2 | Dynamische Kippstabilität: Kreisfahrt mit **1,5 m/s²** Querbeschleunigung, kein Rad hebt ab | dito |
+| 5.11 | Doppelter Fahrspurwechsel mit ≥ 10 km/h, leer und voll beladen | dito |
+| 5.12.1 | Einachsig mit starrer Deichsel: Drehpunkt **≤ 400 mm** hoch; Stützlast nicht negativ, **5–15 % des Gesamtgewichts** | z. B. bei 100 kg: 5–15 kg auf der Kupplung |
+| 5.12.2 | Fahrrad muss sich um **≥ 40°** je Seite drehen lassen; Mittellinien max. 100 mm versetzt; Kupplung um ≥ 90° drehbar, ohne dass ein Rad des leeren Anhängers abhebt; Deichsel und Kabel berühren weder Gepäckträger noch Reifen | Kupplungswahl |
+| 5.12.3 | Deichsel dynamisch: ±2,5 × Gesamtgewicht (kg) in N, mind. ±270 N, 200.000 Zyklen | Auslegung der Deichsel |
+| 5.12.4 | Deichsel statisch: 5,0 × Gesamtgewicht (kg) in N, max. 20 mm bleibende Verformung | dito |
+| 5.13 | **Sekundäre Sicherheitsvorrichtung** (z. B. Fangseil), die **15 × Gesamtgewicht (kg) in N** für 15 s hält (bei 100 kg: 1500 N), **oder** automatische Bremsfunktion (Stillstand innerhalb 1,0 m an 16 %) | Fangseil ist die einfache Lösung; der Folgesatz zur automatischen Bremssequenz ist mehrdeutig formuliert → in der BA prüfen |
+| 6.4 | Rahmen: Lastenaufnahme dynamisch mit 1,5 × Zuladung × g, 200.000 Zyklen | Auslegung des item-Rahmens |
+| 6.5 | Laterale Kräfte auf die Radaufhängung beim Kippen in der Kurve | dito |
+| 9.2 | Abstand Reifen zu Rahmen mind. 6 mm | Konstruktion |
+| 13 | Beleuchtung und Rückstrahler nach nationalem Recht (in DE § 67a StVZO) | siehe 1.1 |
+| 14 | Orange Flagge (≥ 290 cm², 1,4–2,0 m) **nur, wenn der Anhänger niedriger als 1,0 m ist** | mit Kühlgerät und Solardach vermutlich höher → nicht nötig |
+| 16 | Hupe/Klingel nur für Anhänger mit Handwagenmodus | entfällt |
+| 19 | Gebrauchsanleitung (Beladung, Fahrradempfehlung, max. Stützlast, Bremsweg-Warnung, Drehmomente usw.) | Teil der Dokumentation, z. B. für Mieter in der Webanwendung |
+| 20.1 | Kennzeichnung u. a. mit „EN 17860-7:2024“, Hersteller, Baujahr, max. Zuladung je Lastenaufnahme | Typenschild |
+
+**Grobe Gewichtsrechnung zur 100-kg-Grenze (eigene Schätzung):** Kühlgerät ca. 15 kg + Akku ca. 10 kg + starres 300-Wp-Modul ca. 15 kg + Rahmen aus ca. 8 m Profil 8 ca. 14 kg + Achse, Räder, Kupplung ca. 8 kg + Kleinteile ca. 5 kg ≈ **67 kg leer**. Bleiben ca. 33 kg für Ware; 45 l Getränke wiegen ca. 30–45 kg. **Die 100-kg-Grenze ist knapp.** Optionen: leichtes oder flexibles Solarmodul, kleinerer Akku, Zuladung begrenzen, oder eine Auflaufbremse einplanen. → Entscheidung als Teilziel im Exposé.
+
+Formulierungsvorschlag fürs Exposé: „Als Stand der Technik nach § 63a Abs. 3 StVZO dient DIN EN 17860-7 (Lastenanhänger bis 600 kg, auch für gewerbliche Nutzung). Sie verlangt ab 100 kg Gesamtmasse eine Auflaufbremse; ob der Anhänger unter dieser Grenze bleibt oder eine Bremse erhält, wird in der Arbeit entschieden.“
 
 ---
 
