@@ -31,10 +31,8 @@ Auf dieser Grundlage wird die Webanwendung umgesetzt. Sie umfasst die Verwaltung
 Zuletzt wird die Webanwendung auf einem Server bereitgestellt, entweder auf einer virtuellen Maschine im Rechenzentrum der Hochschule oder bei einem Webhoster. Die zentralen Abläufe, also Registrierung, Buchung und Bestätigung, werden mit automatisierten Tests abgedeckt.
 
 == Abgrenzung
-Nicht Bestandteil der Arbeit sind:
-- eine vollständige Prüfung nach DIN EN 17860-7; Dauerprüfungen am Prüfstand und eine Zertifizierung entfallen, da nur ein Prototyp entsteht;
-- eine Serienfertigung sowie ein elektrischer Hilfsantrieb des Anhängers;
-- eine native App; die Anwendung wird als Webanwendung umgesetzt, die auch auf Smartphones nutzbar ist;
-- die Abwicklung der Mietzahlung in der Webanwendung; Preise werden angezeigt, abgerechnet wird außerhalb der Anwendung;
-- ein unbetreuter Selbstbedienungsbetrieb; der Mieter verkauft selbst, deshalb sind weder Bezahlterminal noch Erkennung entnommener Ware vorgesehen;
-- lebensmittel- und gewerberechtliche Fragen des Verkaufs sowie die Gründung einer Betreiberfirma.
+Da in der Arbeit nur ein Prototyp entsteht, entfallen eine vollständige Prüfung nach DIN EN 17860-7 mit Dauerprüfungen am Prüfstand sowie eine Zertifizierung des Anhängers. Ebenso sind weder eine Serienfertigung noch ein elektrischer Hilfsantrieb vorgesehen.
+
+Auf Seiten der Software wird keine native App entwickelt; stattdessen entsteht eine Webanwendung, die auch auf Smartphones nutzbar ist. Die Mietzahlung wickelt die Anwendung nicht selbst ab: Sie zeigt die Preise an, abgerechnet wird außerhalb der Anwendung.
+
+Auch der Betrieb ist bewusst eingegrenzt. Der Mieter verkauft selbst aus dem Anhänger, sodass ein unbetreuter Selbstbedienungsbetrieb mit Bezahlterminal oder einer Erkennung entnommener Ware nicht Teil der Arbeit ist. Lebensmittel- und gewerberechtliche Fragen des Verkaufs sowie die Gründung einer Betreiberfirma werden ebenfalls nicht behandelt.
