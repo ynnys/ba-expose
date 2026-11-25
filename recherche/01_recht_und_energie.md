@@ -264,12 +264,11 @@ Preise standen in der Suche nicht zuverlässig drin (teils „auf Anfrage“). �
 
 ## 4. Nebenbei gefunden: Kandidaten für „Verwandte Arbeiten“
 
-- **ERNI „fast fahrerlose“ Softeis-Verkaufsfahrzeuge (Österreich):** umgebaute Piaggio Ape mit Elektromotor, Roboterarm und Softeismaschine; 2 × LiFePO4 25,6 V/200 Ah (ca. 10 kWh, eigene Rechnung), knapp 1 kWp Solar als ausklappbares Dach, bis zu 5 h autarker Betrieb an sonnigen Tagen, Flottenüberwachung per Fernzugriff mit Geoposition. → [Victron Energy Blog, 01.09.2023](https://www.victronenergy.com/blog/2023/9/1/driverless-ice-cream) (C, Herstellerblog). Parallelen: mobil, solar, Flottenverwaltung; Unterschied: Kraftfahrzeug, viel größer, Verkauf durch den Betreiber.
-- **Patent US 9751446 B2 „Mobile vending trailer“:** autarker Verkaufsanhänger mit austauschbaren Energiequellen inkl. Solar. → [Google Patents](https://patents.google.com/patent/US9751446B2) (A, Patentschrift). Für die Abgrenzung lesen.
+Am 25.11.2026 nach `03_verwandte_arbeiten.md` (Abschnitt 4) verschoben, weil sie fachlich dorthin gehören: ERNI-Softeisfahrzeuge und Patent US 9751446 B2 (Letzteres dort gestrichen, da Anhänger für Kraftfahrzeuge).
 
 ## 5. Nächste Schritte
 
 - [ ] Quellen prüfen (Jannis), dann entscheiden, was in `thesis.bib` kommt
 - [ ] Aktuellen StVZO-Stand zu Masse und Bremse klären (1.3)
 - [ ] Kühlbox oder Kühltruhe festlegen → Verbrauch genauer
-- [ ] Recherche Verwandte Arbeiten: Lastenrad-Verleih, mobile Verkaufsstände, Sharing-Plattformen
+- [x] Recherche Verwandte Arbeiten: Lastenrad-Verleih, mobile Verkaufsstände, Sharing-Plattformen → `03_verwandte_arbeiten.md`
